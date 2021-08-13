@@ -1,0 +1,90 @@
+html,header,body{
+    font-family: monospace;
+   font-size: 15px;
+   margin:  10px 10px 10px;
+   background: url("tenor.gif");
+   background-repeat: repeat;
+
+}
+
+#a-title{
+   ;
+    font-family: monospace;
+}
+ul{
+    display: flex;
+    justify-content: flex-start;
+}
+li{
+    display: block;
+    padding: 1rem;
+}
+@media (max-width: 80px){
+    ul{
+         flex-direction: column;
+    }
+}
+
+a{
+    border-style: outset;
+    background: #28F332;
+    border-color: #28F562;
+    display: flex;
+    flex-direction:wrap;
+    justify-content: space-between;
+    border-radius: 13px;
+    padding: 10px 10px 10px 10px;
+    color: #170303;
+}
+a.title{
+    background: #180404;
+}
+a:hover{
+    transform: scale(1);
+    transition: 0.5s;
+    color: #8FF444;
+    background: #141212; box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+}
+iframe{
+    justify-content: space-between;
+    margin-bottom: 10px;border-radius: 20px;box-shadow:  0 2px 0 rgba(0, 0, 0, 0.4);box-shadow: 5px 10px 18px #888888;
+}
+iframe:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    background: #3F3B3B;
+
+}
+fieldset{
+    box-shadow:  0 2px 0 rgba(103, 247, 21, 1);box-shadow: 5px 10px 18px #37F52E;
+    background: #322F2F;
+    border-radius: 10px;
+}
+
+#particles-js{
+    height: 10%;
+    background: #3A3535;
+   }
+h1{
+    color: #19E423;
+}
+ h2{
+    border-radius: 12px;
+    background: #362F2F;
+    padding: 10px 10px 10px;
+    border-style: inset;
+    border-color: #36E24A;
+    color: #1DF541;
+}
+h2:hover{
+    background: #2E2C2C; box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+}
+p{
+    border-radius: 12px;
+    background: #362F2F;
+    padding: 10px 10px 10px;
+    border-style: inset;
+    border-color: #36E24A;
+    color: #1DF541;
+
+}
